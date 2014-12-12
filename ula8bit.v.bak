@@ -1,0 +1,8 @@
+module ula8bit(AIN,BIN,ZERO,OPERATION,A,B,RESULT)
+//module ULA (A,B,AIN,BIN,OPERATION,COUT,RESULT,CIN,LESS);
+	input AIN,BIN,[1:0]OPERATION;
+	input [7:0]A,B;
+	output RESULT;
+ula ula0()
+	
+endmodule
